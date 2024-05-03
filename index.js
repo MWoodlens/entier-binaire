@@ -1,4 +1,4 @@
-
+//---------------------------------------
 let form = document.querySelector('form');
 let ch1 = document.getElementById('type1');
 let ch2 = document.getElementById('type2');
@@ -7,7 +7,7 @@ let nb = document.querySelector('.nb');
 let result = document.querySelector('.result');
 let btn = document.querySelector('.btn');
 // --------------------------------------
-const nbInt ="012345678";
+const nbInt ="0123456789";
 const leftRightKey = ['Backspace','ArrowLeft','ArrowRight'];
 
 nb.addEventListener('keydown',(ev)=>{
